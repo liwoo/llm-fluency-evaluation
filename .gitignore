@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+*.spec
+*.egg
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+venv*/
+.venv*/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE/Editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
